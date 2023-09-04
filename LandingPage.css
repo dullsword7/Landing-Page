@@ -135,4 +135,39 @@
 .call-to-action {
     height: 400px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-banner {
+    border-radius: 10px;
+    background-color: #3882f6;
+    height: 200px;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.action-text {
+    color: #e5e7eb;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-right: 200px;
+}
+
+.action-subtext {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.action-button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 5px;
+    font-weight: 800;
+    border-radius: 5px;
+    border-color: #e5e7eb;
+    width: 150px;
 }
